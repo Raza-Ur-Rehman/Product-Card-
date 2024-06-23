@@ -102,7 +102,7 @@ let product = [
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: '<img src="./assest/Image/voucher.svg" alt="">'
+    discount: '<img src="./assest/Image/voucher.svg"  alt="">'
   },
 ];
     let productList = document.querySelector("#product-list");
@@ -124,7 +124,7 @@ let product = [
                                         <sup>Rs</sup>
                                         ${product[keys].retail_price}
                                     </div>
-                                    <div class="discount"> ${product[keys].discount} </div>
+                                    <div class="discount">${product[keys].discount}</div>
                                     </div>
                                     
                                     </div>
