@@ -38,56 +38,56 @@ let product = [
     brand: "Tecno Spark 20",
     price: "26,499",
     retail_price: "29,999",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    image: "./assest/Image/tecno-spark-20-pakistan.webp",
     discount: "12% OFF"
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "Samsung Galaxy A04",
+    price: "17,500",
+    retail_price: "31,500",
+    image: "./assest/Image/samsung-galaxy-a05s-pakistan.webp",
     discount: "44% OFF"
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "ZTE Blade A72s",
+    price: "19,999",
+    retail_price: "26,499",
+    image: "./assest/Image/zte-blade-a54-pakistan.webp",
     discount: "25% OFF"
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "Infinix Note 40",
+    price: "50,000",
+    retail_price: "54,999",
+    image: "./assest/Image/infinix-note-40-pakistan.webp",
     discount: '<img src="assest/Image/voucher.svg" alt="">'
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "11% OFF"
+    brand: "Infinix GT 20 Pro",
+    price: "94,999",
+    retail_price: "93,999",
+    image: "./assest/Image/infinix-gt-20-pro-pakistan.webp",
+    discount: '<img src="assest/Image/voucher.svg" alt="">',
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "33% OFF"
+    brand: "Xiaomi Redmi 13C",
+    price: "24,299",
+    retail_price: "31,999",
+    image: "./assest/Image/xiaomi-redmi-13c.webp",
+    discount: "24% OFF",
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: '<img src="assest/Image/voucher.svg" alt="">'
+    brand: "Tecno Spark 20 Pro",
+    price: "37,499",
+    retail_price: "44,999",
+    image: "./assest/Image/tecno-spark-20-pakistan-pakistan.webp",
+    discount: "17% OFF",
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "Tecno Pova 5 Pro",
+    price: "37,799",
+    retail_price: "44,999",
+    image: "./assest/Image/tecno-pova-5-pro-pakistan.webp",
     discount: "24% OFF"
   },
   {
