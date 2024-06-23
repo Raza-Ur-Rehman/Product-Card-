@@ -88,7 +88,14 @@ body {
   background-color: var(--white);
   color: var(--blue);
 }
-
+@media (max-width: 869px){
+  .nav-right {
+    display: none;
+  }
+  .nav-center{
+    width: 250px;
+  }
+}
 .product-container {
   margin: 25px;
 }
@@ -141,6 +148,7 @@ body {
 
 .img-box {
   position: relative;
+  margin: 30px;
 }
 
 .img-box img {
