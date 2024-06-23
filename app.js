@@ -4,7 +4,7 @@ let product = [
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: 7,
+    discount: '<img src="assest/Image/voucher.svg" alt="">',
   },
   {
     brand: "Xiaomi Redmi Note 13",
@@ -18,7 +18,7 @@ let product = [
     price: "39,599",
     retail_price: "42,999",
     image: "./assest/Image/infinix-hot-40-pro-pakistan.webp",
-    discount:"6% OFF",
+    discount:'<img src="assest/Image/voucher.svg" alt="">',
   },
   {
     brand: "Infinix Hot 40i",
@@ -32,77 +32,77 @@ let product = [
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: '<img src="assest/Image/voucher.svg" alt="">'
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "12% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "44% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "25% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: '<img src="assest/Image/voucher.svg" alt="">'
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "11% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "33% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: '<img src="assest/Image/voucher.svg" alt="">'
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "24% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: "30% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "6% OFF"
+    discount: '<img src="./assest/Image/voucher.svg" alt="">'
   },
 ];
     let productList = document.querySelector("#product-list");
