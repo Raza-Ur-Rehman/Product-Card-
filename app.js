@@ -98,8 +98,8 @@ let product = [
     discount: "18% OFF"
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
+    brand: "Xiaomi Redmi A3",
+    price: "19,499",
     retail_price: "21,999",
     image: "./assest/Image/xiaomi-redmi-a3-pakistan.webp",
     discount: "18% OFF"
@@ -128,7 +128,7 @@ let product = [
                                     </div>
                                     
                                     </div>
-                                    <div class="buy-now"><a href="">BUY NOW</a></div>
+                                    <div class="buy-now"><a href="https://priceoye.pk/mobiles">BUY NOW</a></div>
                                     </a>
                     </div>`;
   }
