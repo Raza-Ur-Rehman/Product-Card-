@@ -197,7 +197,7 @@ sup {
   height: 20px;
 }
 
-.buy-now {
+.buy-now{
   width: 100%;
   height: 30px;
   background: var(--blue);
@@ -205,9 +205,8 @@ sup {
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-.buy-now a {
   text-decoration: none;
   color: var(--white);
+  cursor: pointer;
 }
+
