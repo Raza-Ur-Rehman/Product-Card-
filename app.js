@@ -73,14 +73,14 @@ let product = [
     brand: "Xiaomi Redmi 13C",
     price: "24,299",
     retail_price: "31,999",
-    image: "./assest/Image/xiaomi-redmi-13c.webp",
+    image: "./assest/Image/xiaomi-redmi-13c-pakistan.webp",
     discount: "24% OFF",
   },
   {
     brand: "Tecno Spark 20 Pro",
     price: "37,499",
     retail_price: "44,999",
-    image: "./assest/Image/tecno-spark-20-pakistan-pakistan.webp",
+    image: "./assest/Image/tecno-spark-20-pakistan.webp",
     discount: "17% OFF",
   },
   {
@@ -88,21 +88,21 @@ let product = [
     price: "37,799",
     retail_price: "44,999",
     image: "./assest/Image/tecno-pova-5-pro-pakistan.webp",
-    discount: "24% OFF"
+    discount: "16% OFF"
+  },
+  {
+    brand: "Tecno Spark 20 Pro Plus",
+    price: "45,999",
+    retail_price: "55,999",
+    image: "./assest/Image/tecno-spark-20-pro-plus-pakistan.webp",
+    discount: "18% OFF"
   },
   {
     brand: "Infinix Hot 40i",
     price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: "30% OFF"
-  },
-  {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: '<img src="./assest/Image/voucher.svg" alt="">'
+    retail_price: "21,999",
+    image: "./assest/Image/xiaomi-redmi-a3-pakistan.webp",
+    discount: "18% OFF"
   },
 ];
     let productList = document.querySelector("#product-list");
