@@ -118,7 +118,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* background-color: #48afff; */
+  background-color: var(--black);
 }
 
 .product-box {
@@ -134,7 +134,8 @@ body {
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
+  /* height: 100%; */
 }
 
 .img-box {
@@ -187,25 +188,30 @@ sup {
   text-decoration: line-through;
   text-decoration-color: red;
 }
-.discount {
+.discount  {
   color: #0bb07e;
   background: #f0faf7;
-  border-radius: 8px;
-  padding: 5px;
-  font-size: 1rem;
+  /* border-radius: 8px; */
+  padding :8px;
+  font-size: 16px;
   font-weight: 600;
+}
+.discount img {
+  /* padding: 5px; */
+  width: 70px;
+  height: 10px;
 }
 
 .buy-now {
-  width: 90%;
+  width: 100%;
   height: 30px;
   background: var(--blue);
-  border-radius: 6px;
+  border-radius: 0px 0px 6px 6px;
   /* color: var(--white); */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 10px; */
+  /* margin-bottom: -10px; */
 
 }
 .buy-now a {
