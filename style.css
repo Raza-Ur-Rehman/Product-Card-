@@ -4,11 +4,13 @@
   --gray: #909090;
   --black: #202020;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 body {
   width: 100%;
   height: 100vh;
@@ -17,29 +19,34 @@ body {
   /* line-height: 1.5; */
   /* font-size: 20px; */
 }
+
 .header {
   width: 100%;
-  height: 8%;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px;
   background-color: var(--blue);
 }
+
 .nav-left {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
+
 .nav-left i {
   font-size: 30px;
   color: var(--white);
 }
+
 .nav-left h1 {
   font-size: 34px;
   color: var(--white);
 }
+
 .nav-center {
   width: 450px;
   height: 50px;
@@ -50,6 +57,7 @@ body {
   border-radius: 6px;
   padding: 14px;
 }
+
 .nav-center input {
   width: 90%;
   outline: none;
@@ -57,10 +65,12 @@ body {
   font-size: 16px;
   color: var(--gray);
 }
+
 .nav-center i {
   font-size: 22px;
   color: var(--blue);
 }
+
 .nav-right button {
   width: 100px;
   border: 1px solid var(--white);
@@ -73,13 +83,16 @@ body {
   font-weight: 500;
   /* padding: 10px 20px ; */
 }
+
 #login {
   background-color: var(--white);
   color: var(--blue);
 }
+
 .product-container {
   margin: 25px;
 }
+
 .product-container header h2 {
   font-size: 32px;
   font-weight: 600;
@@ -87,77 +100,116 @@ body {
   margin-top: 0;
   color: var(--black);
 }
+
 .filter-sec {
   display: flex;
 }
+
 .list-sec {
   margin-right: 8px;
   flex: 1 0 25%;
 }
+
 .product-sec {
   flex: 1 0 75%;
 }
-.product-list {
+
+#product-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* background-color: #48afff; */
 }
+
 .product-box {
-  flex: 0 0 calc(24.96% - 8px);
+  flex: 0 0 calc(24% - 8px);
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  margin: 10px;
 }
-.product-box a {
+
+.product-link {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
-  padding: 20px;
   text-decoration: none;
+  padding: 20px;
+  height: 100%;
+ /* width: 100%; */
 }
+
 .img-box {
   position: relative;
-  /* width: 200px; */
-  height: 150px;
-  /* display: flex; */
-  /* justify-content: center; */
 }
+
 .img-box img {
   width: 120px;
   height: 120px;
 }
+
 sup {
-    top: -12px;
-    font-size: 55%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  top: -12px;
+  font-size: 55%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
-.product-box .detail-box {
+
+.detail-box {
   width: 100%;
 }
-.product-box .detail-box .title {
-    color: #404040;
-    /* white-space: pre-line; */
-    /* font-size: 2px; */
-    height: 62px;
-    overflow: hidden;
-    text-transform: capitalize;
+
+.detail-box .title {
+  color: #404040;
+  white-space: pre-line;
+  font-size: 20px;
+  height: 62px;
+  overflow: hidden;
+  text-transform: capitalize;
 }
-.product-box .detail-box .price-box {
-    font-weight: 500;
-    color: #07121b;
-    font-size: 28px;
+.price-box {
+  font-weight: 600;
+  color: var(--black);
+  font-size: 26px;
 }
-.product-box .price-diff {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: rgba(7, 18, 27, .4);
+
+.price-diff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 15px; */
+  color: rgba(7, 18, 27, .4);
 }
+
 .price-diff-retail {
-    font-size: 18px;
-    /* margin-left: initial; */
-    margin-right: 7.5px;
-    text-decoration: line-through;
-    text-decoration-color: red;
+  font-size: 18px;
+  margin-left: initial;
+  margin-right: 7.5px;
+  text-decoration: line-through;
+  text-decoration-color: red;
 }
+.discount {
+  font-size: 18px;
+  color: green;
+
+}
+
+.buy-now {
+  width: 100%;
+  height: 30px;
+  background: var(--blue);
+  border-radius: 6px;
+  /* color: var(--white); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 8px; */
+
+}
+
+/* .buy-now a {
+  /* text-decoration: none;
+  color: var(--white);
+} */
+*/
