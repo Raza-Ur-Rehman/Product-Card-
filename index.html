@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Mobiles Cards</title>
 </head>
+
 <body>
-<header class="header">
+    <header class="header">
         <div class="nav-left">
             <i class="fa-solid fa-bars-staggered"></i>
             <h1>Logo</h1>
@@ -21,34 +25,50 @@
             <button id="login">Log in</button>
             <button id="register">Register</button>
         </div>
-</header>
-<main class="main">
-    <section class="list-sec"></section>
-    <section class="product-list">
-        <div class="product-box">
-            <div class="img-box">
-                <img src="" alt="">
-            </div>
-            <div class="detail-box">
-                <div class="title"></div>
-                <div class="price-box">
-                <sup>Rs</sup>
-
-                </div>
-                <div class="price-diff">
-                    <div class="price-diff-retail">
-                        <sup>Rs</sup>
-                        
+    </header>
+    <main class="product-container">
+        <header>
+            <h2>Search Result</h2>
+        </header>
+        <div class="filter-sec">
+            <!-- side list  -->
+            <section class="list-sec"></section>
+            <!-- product sect  -->
+            <div class="product-sec">
+                <section class="product-list">
+                    <div class="product-box">
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="assest/Image/infinix-gt-20-pro-pakistan.webp" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <div class="title">infinix-gt-20-pro</div>
+                                <div class="price-box">
+                                    <sup>Rs</sup>
+                                    27,099
+                                </div>
+                                <div class="price-diff">
+                                    <div class="price-diff-retail">
+                                        <sup>Rs</sup>
+                                        28,499
+                                    </div>
+                                    <div class="discount">
+                                        <img src="assest/Image/voucher.svg" height="30" width="57" alt="voucher">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="discount"></div>
-                </div>
+                </section>
             </div>
+
+
         </div>
-    </section>
-</main>
+    </main>
 
 
 
     <script src="app.js"></script>
 </body>
+
 </html>
