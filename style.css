@@ -60,6 +60,28 @@ body {
 .nav-center i {
     font-size: 22px;
     color: var(--blue);
+}
+.nav-right button {
+    width: 100px;
+    border: 1px solid var(--white);
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    /* padding: 10px 20px ; */
 
 }
+#login {
+    background-color: var(--white);
+    color: var(--blue);
+}
+.main {
+    width: 100%;
+    
+}
+
+
 
