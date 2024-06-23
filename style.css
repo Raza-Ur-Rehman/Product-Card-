@@ -92,15 +92,16 @@ body {
 .product-container {
   margin: 25px;
 }
-
-.product-container header h2 {
-  font-size: 32px;
+.product-container header {
+  margin-bottom: 30px;
+}
+.product-container header h4 {
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 16px;
   margin-top: 0;
   color: var(--black);
 }
-
 .filter-sec {
   display: flex;
 }
@@ -118,7 +119,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .product-box {
@@ -190,16 +191,10 @@ sup {
 }
 .discount  {
   color: #0bb07e;
-  background: #f0faf7;
-  /* border-radius: 8px; */
-  padding :8px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
-}
-.discount img {
-  /* padding: 5px; */
   width: 70px;
-  height: 10px;
+  height: 20px;
 }
 
 .buy-now {
@@ -207,11 +202,9 @@ sup {
   height: 30px;
   background: var(--blue);
   border-radius: 0px 0px 6px 6px;
-  /* color: var(--white); */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: -10px; */
 
 }
 .buy-now a {
