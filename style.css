@@ -1,6 +1,8 @@
 :root {
   --blue: #48afff;
   --white: #ffffff;
+  --gray: #909090;
+  --black: #202020;
 }
 * {
   box-sizing: border-box;
@@ -11,23 +13,53 @@ body {
   width: 100%;
   height: 100vh;
   font-family: sans-serif;
+  color: var(--black);
+  line-height: 1.5;
+  font-size: 20px;
 }
 .header {
   width: 100%;
-  height: 10%;
+  height: 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
-  background-color: #48afff;
+  padding: 16px;
+  background-color: var(--blue);
 }
 .nav-left {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 .nav-left i {
-  font-size: 36px;
+  font-size: 32px;
+  color: var(--white);
 }
 .nav-left h1 {
-  color: #fff;
+    font-size: 34px;
+  color: var(--white);
 }
+.nav-center {
+    width: 450px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 14px;
+}
+.nav-center input {
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: var(--gray);
+}
+.nav-center i {
+    font-size: 22px;
+    color: var(--blue);
+
+}
+
