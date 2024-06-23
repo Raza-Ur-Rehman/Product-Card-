@@ -128,7 +128,7 @@ let product = [
                                     </div>
                                     
                                     </div>
-                                    <div class="buy-now"><a href="https://priceoye.pk/mobiles">BUY NOW</a></div>
+                                    <div><a class="buy-now" href="https://priceoye.pk/mobiles" target="_blank" rel="noopener noreferrer">BUY NOW</a></div>
                                     </a>
                     </div>`;
   }
