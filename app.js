@@ -21,23 +21,23 @@ let product = [
     discount:'<img src="assest/Image/voucher.svg" alt="">',
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "Itel S23 4G",
+    price: "18,999",
+    retail_price: "21,999",
+    image: "./assest/Image/itel-s23-4g-pakistan.webp",
     discount: "14% OFF",
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
-    image: "./assest/Image/infinix-hot-40i-pakistan.webp",
+    brand: "Infinix Smart 7 HD",
+    price: "17,999",
+    retail_price: "18,999",
+    image: "./assest/Image/infinix-smart-7-hd-pakistan.webp",
     discount: '<img src="assest/Image/voucher.svg" alt="">'
   },
   {
-    brand: "Infinix Hot 40i",
-    price: "27,099",
-    retail_price: "28,499",
+    brand: "Tecno Spark 20",
+    price: "26,499",
+    retail_price: "29,999",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
     discount: "12% OFF"
   },
@@ -102,7 +102,7 @@ let product = [
     price: "27,099",
     retail_price: "28,499",
     image: "./assest/Image/infinix-hot-40i-pakistan.webp",
-    discount: '<img src="./assest/Image/voucher.svg"  alt="">'
+    discount: '<img src="./assest/Image/voucher.svg" alt="">'
   },
 ];
     let productList = document.querySelector("#product-list");
