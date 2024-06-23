@@ -135,8 +135,6 @@ body {
   flex-direction: column;
   text-decoration: none;
   padding: 20px;
-  height: 100%;
- /* width: 100%; */
 }
 
 .img-box {
@@ -178,7 +176,7 @@ sup {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-top: 15px; */
+  padding-top: 15px;
   color: rgba(7, 18, 27, .4);
 }
 
@@ -190,13 +188,16 @@ sup {
   text-decoration-color: red;
 }
 .discount {
-  font-size: 18px;
-  color: green;
-
+  color: #0bb07e;
+  background: #f0faf7;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .buy-now {
-  width: 100%;
+  width: 90%;
   height: 30px;
   background: var(--blue);
   border-radius: 6px;
@@ -204,12 +205,10 @@ sup {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 8px; */
+  /* padding: 10px; */
 
 }
-
-/* .buy-now a {
-  /* text-decoration: none;
+.buy-now a {
+  text-decoration: none;
   color: var(--white);
-} */
-*/
+}
